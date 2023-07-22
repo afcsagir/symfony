@@ -1,0 +1,12 @@
+# Project files #
+######################
+.idea
+.DS_Store
+!.gitkeep
+/docker/nginx/sites/*
+!/docker/nginx/sites/local.conf
+/public/*
+!/public/index.php
+/logs/**/*.log
+.env
+docker-compose.yml
